@@ -866,7 +866,7 @@ local function fetchBuffTable(stats)
     return stTab
 end
 
-local Config = { WindowName = "Wave v"..temptable.version.." BSS", Color = Color3.fromRGB(164, 84, 255), Keybind = Enum.KeyCode.Insert}
+local Config = { WindowName = "Wave v"..temptable.version..", Color = Color3.fromRGB(164, 84, 255), Keybind = Enum.KeyCode.Insert}
 local Window = library:CreateWindow(Config, game:GetService("CoreGui"))
 
 local hometab = Window:CreateTab("Home")
